@@ -1,5 +1,6 @@
 *{
     text-align: center;
+    box-sizing: border-box;
 }
 
 .entire-body{
@@ -7,4 +8,32 @@
     width: 640px;
     padding: 50px;
     font-family: 'Courier New', Courier, monospace;
+    display: grid;
+}
+
+.p-syle{
+    
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+	max-width: 700px;
+	position: relative;
+}
+
+li {
+	padding: 0.5rem 1.5rem 1rem;
+	border-radius: 1.5rem;
+	background: peachpuff;
+}
+
+li + li {
+	margin-top: 1rem;
+}   
+
+::marker {
+	font-weight: 600;
+	color: peachpuff;
+	font-size: 1.8rem;
 }
