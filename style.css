@@ -15,25 +15,38 @@
     
 }
 
-ul {
+.ingredients-styling li{
 	padding: 0;
 	margin: 0;
 	max-width: 700px;
 	position: relative;
 }
 
-li {
+.ingredients-styling li{
 	padding: 0.5rem 1.5rem 1rem;
 	border-radius: 1.5rem;
 	background: peachpuff;
 }
-
-li + li {
+.ingredients-styling li{
 	margin-top: 1rem;
 }   
 
-::marker {
+.ingredients-styling ::marker {
 	font-weight: 600;
 	color: peachpuff;
 	font-size: 1.8rem;
 }
+
+.steps-styling ::marker{
+    font-weight: 600;
+    color: tomato;
+    font-size: 2rem;
+}
+
+.steps-styling li{
+    padding: 0.5rem 1.5rem 1rem;
+	border-radius: 1.5rem;
+	background: rgb(255, 185, 188);  
+    margin-top: 1.8rem;                                                                                                                                                                       
+}
+
